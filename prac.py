@@ -1,0 +1,6 @@
+name=input("logesh")
+age=input(19)
+my_adress=input("chayyer")
+print("my name is:",name)
+print("my age is:",age)
+print("my adress is:",my_adress)
