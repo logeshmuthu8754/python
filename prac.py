@@ -31,3 +31,78 @@ def FizzBuzz(n):
         else:
             print(i)
 FizzBuzz(0)
+
+#factorial
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+print(factorial(5)) 
+
+
+
+#even number
+def is_even(num):
+    return num % 2 == 0
+
+print(is_even(10))  
+print(is_even(7)) 
+
+
+
+#factorial
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+print(factorial(5))
+
+
+
+#celsius
+def celsius(celsius):
+    return (celsius * 9/5) + 32
+
+print(celsius(25))
+
+
+#largest of three
+def largest_of_three(a, b, c):
+    return max(a, b, c)
+
+print(largest_of_three(5, 10, 7))
+
+
+#positive or negative
+def check_number(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+print(check_number(-5))
+
+#swap sum
+def swap_numbers(a, b):
+    a, b = b, a
+    return a, b
+
+print(swap_numbers(3, 7))
+
+#prime number
+def prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+print(prime(17)) 
+print(prime(18))
