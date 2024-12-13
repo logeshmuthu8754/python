@@ -30,7 +30,7 @@ def FizzBuzz(n):
             print("Buzz")
         else:
             print(i)
-FizzBuzz(0)
+FizzBuzz(20)
 
 #factorial
 def factorial(n):
@@ -106,3 +106,23 @@ def prime(num):
 
 print(prime(17)) 
 print(prime(18))
+
+
+
+def count_word_occurrences(str1,tstr):
+    arr=list(str1)
+    count=str1.count(tstr)
+    print(count)
+count_word_occurrences("logesh muthu playing the game","the") 
+
+
+
+def maxInArray(arr):
+    if arr is  None:
+        print("")
+    elif len(arr)==0:
+        print("")
+    else:
+        print(max(arr))
+	
+maxInArray([6,1,3,15,2,0])
